@@ -78,6 +78,7 @@ export default function Home() {
                           {notification.group}
                         </p>
                       )}
+
                       {notification.isUnread && (
                         <div className="w-2 h-2 bg-red-700 rounded-full mx-3"></div>
                       )}
