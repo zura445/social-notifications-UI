@@ -35,7 +35,8 @@
       "time": "5 day ago",
       "profilePicture": "/assets/images/avatar-rizky-hasanuddin.webp",
       "action": "sent you a private message",
-      "isUnread": false
+      "isUnread": false,
+      "text": "Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game."
     },
     {
       "id": 5,
@@ -44,7 +45,7 @@
       "profilePicture": "/assets/images/avatar-kimberly-smith.webp",
       "action": "commented on your picture",
       "isUnread": false,
-      "image": "/assets/images/image-chess.webp"
+      "userPicture": "/assets/images/image-chess.webp"
     },
     {
       "id": 6,
