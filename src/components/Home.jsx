@@ -1,9 +1,4 @@
-import React, { useState } from "react";
-import data from "../data.json";
-
-export default function Home() {
-  const [notifications, setNotifications] = useState(data.notifications);
-
+export default function Home({ notifications, setNotifications }) {
   const handleNotificationClick = (id) => {
     const newNotifications = notifications.map((notification) =>
       notification.id === id

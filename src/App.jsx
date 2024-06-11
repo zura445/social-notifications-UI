@@ -22,7 +22,10 @@ function App() {
     <>
       <div className="max-w-[730px] bg-white px-8 pt-8 pb-4">
         <Header massage={massage} markAllAsRead={markAllAsRead} />
-        <Home notifications={notifications} />
+        <Home
+          notifications={notifications}
+          setNotifications={setNotifications}
+        />
       </div>
     </>
   );
